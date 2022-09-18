@@ -6,5 +6,5 @@ from example.views import *
 
 urlpatterns = [
     path('', index),
-    path('applications', applications),
+    path('chess', chess),
 ]
