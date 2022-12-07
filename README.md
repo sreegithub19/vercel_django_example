@@ -6,7 +6,8 @@
 - django-admin startproject vercel_app .
 - python manage.py startapp example (Add an app to the project)
 - pip3 install -r requirements.txt
-- python3 manage.py runserver
+- python3 manage.py runserver (may or may not work locally, we can directly deploy)
+- git add . && git commit -m "Changes" && git push origin master
 - vercel
 
 ## Versions used:
