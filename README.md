@@ -9,7 +9,7 @@
 - pip3 install -r requirements.txt
 - python manage.py startapp example (Add an app to the project)
 - python3 manage.py runserver (may or may not work locally, we can directly deploy)
-- git add . && git commit -m "Changes" && git push origin master
+- git add . && git commit -m "Changes" && git push origin master && vercel --prod
 - vercel --prod
 
 ## Versions used:
